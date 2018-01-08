@@ -18,6 +18,8 @@ copy the key for later use.
 
 Download or copy the Dockerfile from this repo 
 
+Replace the text "[PASTE XAUTH KEY HERE]" (with Quotes) with the xauth key generated from the above step.
+
 Open terminal and run the following docker command
 ```$ docker build -t intellij [PATH OF DOCKERFILE]```
 
