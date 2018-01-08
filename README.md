@@ -28,12 +28,12 @@ Build will execute and display the logs
 after build is sucessfull, run the image with respective tag name
 
 Use the following command
-``` docker run -it --net=host -e DISPLAY -v [PROJECT VOLUME] [TAGNAME]```
+``` docker run -it --net=host -e DISPLAY [TAGNAME]```
 
 ## Optional:
 
 Mount any project directory using the docker volume mount arguments
-``` -v [Host volume]: [Container] ```
+``` docker run -it --net=host -e DISPLAY -v [PROJECT VOLUME] [TAGNAME]```
 
 You can also mount sound using
 ``` --device /dev/snd ```
