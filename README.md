@@ -28,7 +28,7 @@ Build will execute and display the logs
 after build is sucessfull, run the image with respective tag name
 
 Use the following command
-``` docker run -it --net=host -e DISPLAY -v /usr/bin/.X11-unix [TAGNAME]```
+``` docker run -it --net=host -e DISPLAY -v [PROJECT VOLUME] [TAGNAME]```
 
 ## Optional:
 
