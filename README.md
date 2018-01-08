@@ -17,10 +17,14 @@ copy the key for later use.
 ## Build:
 
 Download or copy the Dockerfile from this repo 
+
 Open terminal and run the following docker command
 ```$ docker build -t intellij [PATH OF DOCKERFILE]```
+
 Build will execute and display the logs
+
 after build is sucessfull, run the image with respective tag name
+
 Use the following command
 ``` docker run -it --net=host -e DISPLAY -v /usr/bin/.X11-unix [TAGNAME]```
 
@@ -28,5 +32,7 @@ Use the following command
 
 Mount any project directory using the docker volume mount arguments
 ``` -v [Host volume]: [Container] ```
+
 You can also mount sound using
 ``` --device /dev/snd ```
+
